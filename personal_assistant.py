@@ -188,7 +188,7 @@ class NewsWindow(tk.Toplevel):
 
         self.font_header = font.Font(family="Helvetica", size=14, weight="bold")
         self.font_normal = font.Font(family="Helvetica", size=11)
-        self.news_api_key = "2f8126d7ec754d839a66ed954343ccef"  # <-- Your NewsAPI.org API key
+        self.news_api_key = "Your API Key"  # <-- Your NewsAPI.org API key
 
         tk.Label(self, text="Top News Headlines", font=self.font_header, fg="#00ffd5", bg="#222831").pack(pady=10)
 
@@ -312,3 +312,4 @@ class PersonalAssistant(tk.Tk):
 if __name__ == "__main__":
     app = PersonalAssistant()
     app.mainloop()
+
