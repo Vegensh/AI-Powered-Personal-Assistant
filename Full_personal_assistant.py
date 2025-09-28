@@ -17,7 +17,7 @@ import google.generativeai as genai   # Gemini API
 
 # ==== CONFIG ====
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']
-GEMINI_API_KEY = "AIzaSyA0V1wo0eKnGwyfXHFf01R3N3G8w2ysKTQ"
+GEMINI_API_KEY = "Your API Key"
 
 # ---------------- Gmail API ---------------- #
 def get_gmail_service():
@@ -233,7 +233,7 @@ class NewsWindow(tk.Toplevel):
         self.configure(bg="#222831")
         self.font_header = font.Font(family="Helvetica", size=14, weight="bold")
         self.font_normal = font.Font(family="Helvetica", size=11)
-        self.news_api_key = "2f8126d7ec754d839a66ed954343ccef"
+        self.news_api_key = "Your API Key"
         tk.Label(self, text="Top News Headlines", font=self.font_header, fg="#00ffd5", bg="#222831").pack(pady=10)
         search_frame = tk.Frame(self, bg="#222831")
         search_frame.pack()
@@ -356,4 +356,5 @@ class PersonalAssistant(tk.Tk):
 if __name__ == "__main__":
     app = PersonalAssistant()
     app.mainloop()
+
 
