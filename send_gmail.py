@@ -12,7 +12,7 @@ import google.generativeai as genai  # Gemini API
 
 # ==== CONFIG ====
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']
-GEMINI_API_KEY = "AIzaSyA0V1wo0eKnGwyfXHFf01R3N3G8w2ysKTQ"  # Your Gemini API key
+GEMINI_API_KEY = "Your API Key"  # Your Gemini API key
 
 # ---------------- Gmail API Authentication ---------------- #
 def get_gmail_service():
@@ -93,3 +93,4 @@ if __name__ == '__main__':
     note = input("Enter your short note (no greeting needed): ").strip()
 
     send_email(recipient, subject, note)
+
