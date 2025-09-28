@@ -1,4 +1,4 @@
-🧑‍💻 Personal Assistant Suite
+🧑‍💻 Personal Assistant 
 
 A desktop-based AI-powered personal assistant built with Python (Tkinter GUI).
 This project integrates multiple productivity tools into one place — a calendar assistant, reminders, notes, weather updates, news headlines, and AI-assisted Gmail email sending.
