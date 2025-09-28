@@ -1,55 +1,57 @@
-🧑‍💻 Personal Assistant 
+# AI-Powered Personal Assistant
 
-A desktop-based AI-powered personal assistant built with Python (Tkinter GUI).
-This project integrates multiple productivity tools into one place — a calendar assistant, reminders, notes, weather updates, news headlines, and AI-assisted Gmail email sending.
+## Project Description
+A desktop-based, AI-powered personal assistant built with Python and Tkinter for GUI. This all-in-one app integrates productivity tools including a Google Calendar assistant, reminders, notes, weather updates, news headlines, and AI-assisted Gmail email sending, streamlining daily tasks efficiently.
 
-🚀 Features
-📅 AI Calendar Assistant (calendar_gui.py)
+## Features
 
-Connects with Google Calendar API
+### AI Calendar Assistant (`calendar_gui.py`)
+- Connects with Google Calendar API to add, list, and delete events
+- Auto-schedules meals around existing events
+- Conflict resolution for daily and custom-date plans
+- Easy-to-use graphical interface
 
-Add, list, or delete events with a user-friendly GUI
+### Full Personal Assistant (`Full_personal_assistant.py`)
+- Calendar integration launching calendar assistant
+- Reminders/to-do list saved in JSON format for persistence
+- Simple notes/journal editor with file saving
+- Real-time weather updates via OpenWeather API
+- Country-specific news headlines using NewsAPI
+- AI email drafting with Gemini AI and sending via Gmail API
 
-Auto-schedules meals (Breakfast, Lunch, Dinner) around existing events
+### Gmail AI Email Sender (`send_gmail.py`)
+- Command-line tool to draft professional emails using Gemini AI
+- Sends polished emails through Gmail API seamlessly
 
-View daily and custom-date plans with conflict resolution
+## Technology Stack
+- Python 3.x
+- Tkinter for GUI
+- Google APIs (Calendar, Gmail)
+- Gemini AI API
+- OpenWeather API
+- NewsAPI
+- JSON, TXT, Pickle for data storage
 
-🧾 Full Personal Assistant (Full_personal_assistant.py)
+## Installation
 
-All-in-one desktop app with:
+1. Clone the repository:
+2. Install required packages:
 
-Calendar Integration → Opens the calendar assistant
+## Usage
 
-Reminders / To-Do List → Save, delete, and persist reminders in JSON
+- Run the full personal assistant:
+- Use the calendar assistant:
+- Send AI-formatted emails:
 
-Notes / Journal → Write and save notes in a simple editor
 
-Weather Updates → Fetch real-time weather via OpenWeather API
 
-News Headlines → Fetch top headlines by country using NewsAPI
+## Future Improvements
+- Voice command integration for hands-free usage
+- Expanded AI personalization for improved productivity
+- Additional APIs and tool integrations
 
-AI Email Sender → Draft professional emails using Gemini AI (Google Generative AI) and send via Gmail API
+## License
+MIT License
 
-📧 Gmail AI Email Sender (send_gmail.py)
-
-Command-line tool for sending polished, AI-formatted Gmail messages
-
-Uses Gemini AI to rewrite short drafts into complete professional emails
-
-Sends emails via the Gmail API
-
-🛠️ Tech Stack
-
-Python 3.x
-
-Tkinter (GUI)
-
-Google APIs: Calendar, Gmail
-
-Gemini AI API for email drafting
-
-OpenWeather API for weather updates
-
-NewsAPI for headlines
-
-File storage: JSON (reminders.json), TXT (notes.txt), pickle (token.pickle)
+## Acknowledgements
+Thanks to Google, Gemini AI, OpenWeather, and NewsAPI for their services enabling this project.
