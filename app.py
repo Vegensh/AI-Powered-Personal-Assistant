@@ -20,9 +20,9 @@ NOTES_FILE = "notes.txt"
 CREDENTIALS_FILE = "credentials.json"
 TOKEN_PICKLE = "token.pickle"
 
-OPENWEATHERMAP_API_KEY = "1efd250cd8ab53a92d1faf7eccbfb560"
-NEWS_API_KEY = "2f8126d7ec754d839a66ed954343ccef"
-GEMINI_API_KEY = "AIzaSyA0V1wo0eKnGwyfXHFf01R3N3G8w2ysKTQ"
+OPENWEATHERMAP_API_KEY = "Your API Key"
+NEWS_API_KEY = "Your API Key"
+GEMINI_API_KEY = "Your API Key"
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']
 
@@ -245,3 +245,4 @@ with tabs[5]:
             st.warning("Please fill in all the fields.")
         else:
             send_email(recipient.strip(), subject.strip(), user_note.strip())
+
